@@ -1,0 +1,72 @@
+{
+  "chooseNowLabel": "اختر الآن",
+  "chooseOnMap": "اختر على الخريطة",
+  "@chooseOnMap": {
+    "description": "Search option that allows to choose a point on the map"
+  },
+  "commonCustomPlaces": "أماكن مخصصة",
+  "@commonCustomPlaces": {
+    "description": "General CustomPlaces label"
+  },
+  "commonFavoritePlaces": "أماكن مفضلة",
+  "@commonFavoritePlaces": {
+    "description": "General Favorite places label"
+  },
+  "defaultLocationAdd": "عيّن عنوان {defaultLocation}",
+  "@defaultLocationAdd": {
+    "placeholders": {
+      "defaultLocation": {
+        "example": "1.0"
+      }
+    },
+    "description": "The name Add for {defaultLocation}"
+  },
+  "defaultLocationHome": "المنزل",
+  "@defaultLocationHome": {
+    "description": "The default location name Home"
+  },
+  "defaultLocationWork": "العمل",
+  "@defaultLocationWork": {
+    "description": "The default location name Work"
+  },
+  "iconlabel": "أيقونة",
+  "instructionJunction": "{street1} و {street2}",
+  "@instructionJunction": {
+    "type": "text",
+    "placeholders": {
+      "street1": {
+        "example": "Av. Blanco Galindo"
+      },
+      "street2": {
+        "example": "Av. 16 de Julio"
+      }
+    },
+    "description": "Junction name of two streets"
+  },
+  "menuYourPlaces": "أماكنك",
+  "@menuYourPlaces": {
+    "description": "A menu item that shows the saved places"
+  },
+  "nameLabel": "الاسم",
+  "savedPlacesEditLabel": "تعديل المكان",
+  "savedPlacesEnterNameTitle": "أدخل الاسم",
+  "savedPlacesEnterNameValidation": "لا يمكن أن يكون الاسم فارغًا",
+  "savedPlacesRemoveLabel": "حذف المكان",
+  "savedPlacesSelectIconTitle": "اختر رمزًا",
+  "savedPlacesSetIconLabel": "تغيير الرمز",
+  "savedPlacesSetNameLabel": "تعديل الاسم",
+  "savedPlacesSetPositionLabel": "تعديل الموقع",
+  "searchTitleFavorites": "المفضلة",
+  "@searchTitleFavorites": {
+    "description": "Search section title for locations marked as favorites"
+  },
+  "searchTitleRecent": "الأخيرة",
+  "@searchTitleRecent": {
+    "description": "Search section title for recent location"
+  },
+  "searchTitleResults": "نتائج البحث",
+  "@searchTitleResults": {
+    "description": "Search section title for results found for the provided search term"
+  },
+  "selectedOnMap": "محدد على الخريطة"
+}

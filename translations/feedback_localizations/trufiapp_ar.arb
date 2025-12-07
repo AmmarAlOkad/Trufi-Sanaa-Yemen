@@ -1,0 +1,14 @@
+{
+  "menuFeedback": "إرسال ملاحظات",
+  "@menuFeedback": {
+    "description": "Menu item that shows the feedback page"
+  },
+  "feedbackTitle": "أرسل لنا تعليقًا",
+  "@feedbackTitle": {
+    "description": "Title displayed on the feedback page"
+  },
+  "feedbackContent": "\n\n هل لديك ملاحظة أو واجهت معلومة غير دقيقة في التطبيق؟ \n\n نحن نبني هذا التطبيق ليكون دليلك اليومي للتنقّل بسهولة وثقة، لذلك تعتمد جودة الخدمة بشكل كبير على ملاحظاتك أنت. \n\n إن أخبرتنا عن خط سير غير صحيح، أو مكان مفقود، أو حتى فكرة يمكن أن تجعل الرحلة أسهل—فسيساعدنا ذلك في تحسين التجربة للجميع. \n\n\n مشاركتك للتغذية الراجعة تضمن أن تبقى بيانات المواصلات في مدينتنا أكثر دقّة وموثوقية، وأن يستمر التطبيق في التطور نحو الأفضل.",
+  "@feedbackContent": {
+    "description": "Text displayed on the feedback page"
+  }
+}

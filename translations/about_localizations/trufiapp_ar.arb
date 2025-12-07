@@ -1,0 +1,53 @@
+{
+    "aboutCollapseContent": "",
+    "@aboutCollapseContent": {
+        "description": ""
+    },
+    "aboutCollapseContentFoot": "",
+    "aboutCollapseTitle": "",
+    
+    "aboutContent": "هل تحتاج للذهاب إلى مكان ولا تعرف أي طريق تسلك أو أي حافلة تأخذ؟ \n\nهذا التطبيق صُمّم ليكون دليلك المباشر للمواصلات العامة. فهو يوضح لك خطوط الحافلات داخل مدينة صنعاء، ويُظهر المحطات القريبة منك، ويُساعدك على معرفة أي حافلة توصلك إلى وجهتك بأبسط طريقة ممكنة. \n\nباختصار: التطبيق يشرح لك كيف تتنقل بالحافلات داخل المدينة، خطوة بخطوة، بدون الحاجة للسؤال أو التخمين.",
+    "@aboutContent": {
+        "placeholders": {
+            "appName": {
+                "example": "My Bus"
+            },
+            "city": {
+                "example": "Sanaa"
+            }
+        },
+        "description": ""
+    },
+    "aboutLicenses": "",
+    "@aboutLicenses": {
+        "description": ""
+    },
+    "aboutOpenSource": "تم إصدار هذا التطبيق كمصدر مفتوح على GitHub. لا تتردد في المساهمة في الشيفرة أو جلب التطبيق إلى مدينتك.",
+    "@aboutOpenSource": {
+        "description": "A note about open source"
+    },
+    "menuAbout": "معلومات عنا",
+    "@menuAbout": {
+        "description": "Menu item that shows the about page"
+    },
+    "tagline": "",
+    "@tagline": {
+        "placeholders": {
+            "city": {
+                "example": "Sanaa"
+            }
+        },
+        "description": "A short marketing sentence that describes the app"
+    },
+    "trufiWebsite": "",
+    "version": "",
+    "@version": {
+        "placeholders": {
+            "version": {
+                "example": "1.0"
+            }
+        },
+        "description": "The application's version"
+    },
+    "volunteerTrufi": ""
+}

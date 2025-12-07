@@ -1,0 +1,353 @@
+{
+  "alertLocationServicesDeniedMessage": "يرجى التأكد من أن جهازك يدعم نظام تحديد المواقع وأن إعدادات الموقع مفعّلة.",
+  "@alertLocationServicesDeniedMessage": {
+    "description": "نص الحوار الذي يوضح أن الوصول إلى خدمات الموقع قد تم رفضه"
+  },
+  "alertLocationServicesDeniedTitle": "لا يوجد موقع",
+  "@alertLocationServicesDeniedTitle": {
+    "description": "عنوان الحوار الذي يوضح أن الوصول إلى خدمات الموقع قد تم رفضه"
+  },
+  "appReviewDialogButtonAccept": "اكتب مراجعة",
+  "@appReviewDialogButtonAccept": {
+    "description": "زر القبول في مربع مراجعة التطبيق على نظام أندرويد"
+  },
+  "appReviewDialogButtonDecline": "ليس الآن",
+  "@appReviewDialogButtonDecline": {
+    "description": "زر الرفض في مربع مراجعة التطبيق على نظام أندرويد"
+  },
+  "appReviewDialogContent": "ادعمنا بكتابة مراجعة في متجر Google Play.",
+  "@appReviewDialogContent": {
+    "description": "محتوى مربع مراجعة التطبيق على نظام أندرويد"
+  },
+  "appReviewDialogTitle": "هل تستمتع باستخدام Trufi؟",
+  "@appReviewDialogTitle": {
+    "description": "عنوان مربع مراجعة التطبيق على نظام أندرويد"
+  },
+  "chooseLocationPageSubtitle": "حرّك وكبّر الخريطة تحت المؤشر",
+  "@chooseLocationPageSubtitle": {
+    "description": "العنوان الفرعي للصفحة عند اختيار موقع على الخريطة"
+  },
+  "chooseLocationPageTitle": "اختر نقطة",
+  "@chooseLocationPageTitle": {
+    "description": "عنوان الصفحة عند اختيار موقع على الخريطة"
+  },
+  "commonCancel": "إلغاء",
+  "@commonCancel": {
+    "description": "تسمية زر الإلغاء"
+  },
+  "commonConfirmLocation": "تأكيد الموقع",
+  "@commonConfirmLocation": {
+    "description": "تسمية عامة لزر تأكيد الموقع"
+  },
+  "commonDestination": "الوجهة",
+  "@commonDestination": {
+    "description": "تسمية حقل الوجهة"
+  },
+  "commonEdit": "تعديل",
+  "@commonEdit": {
+    "description": "تسمية عامة لزر التعديل"
+  },
+  "commonError": "خطأ",
+  "@commonError": {
+    "description": "رسالة عند حدوث خطأ"
+  },
+  "commonFromStation": "من المحطة",
+  "@commonFromStation": {
+    "description": "تسمية عامة من المحطة"
+  },
+  "commonFromStop": "من الموقف",
+  "@commonFromStop": {
+    "description": "تسمية عامة من الموقف"
+  },
+  "commonItineraryNoTransitLegs": "انطلق عندما يناسبك",
+  "@commonItineraryNoTransitLegs": {
+    "description": "تسمية عامة تعني: انطلق عندما يناسبك"
+  },
+  "commonLeavesAt": "يغادر",
+  "@commonLeavesAt": {
+    "description": "تسمية عامة: يغادر في"
+  },
+  "commonLoading": "جارٍ التحميل...",
+  "@commonLoading": {
+    "description": "تسمية عامة: جارٍ التحميل"
+  },
+  "commonNoInternet": "لا يوجد اتصال بالإنترنت.",
+  "@commonNoInternet": {
+    "description": "رسالة عند فقد الاتصال بالإنترنت"
+  },
+  "commonNoResults": "لا توجد نتائج",
+  "@commonNoResults": {
+    "description": "رسالة عند عدم العثور على نتائج للبحث"
+  },
+  "commonOK": "موافق",
+  "@commonOK": {
+    "description": "تسمية زر موافق"
+  },
+  "commonOrigin": "نقطة البداية",
+  "@commonOrigin": {
+    "description": "تسمية حقل نقطة البداية"
+  },
+  "commonRemove": "إزالة",
+  "@commonRemove": {
+    "description": "تسمية عامة لزر الإزالة"
+  },
+  "commonSave": "حفظ",
+  "@commonSave": {
+    "description": "تسمية عامة لزر الحفظ"
+  },
+  "commonTomorrow": "غدًا",
+  "@commonTomorrow": {
+    "description": "تسمية عامة لغدًا"
+  },
+  "commonUnknownError": "خطأ غير معروف",
+  "@commonUnknownError": {
+    "description": "رسالة عند حدوث خطأ غير معروف"
+  },
+  "commonUnkownPlace": "مكان غير معروف",
+  "@commonUnkownPlace": {
+    "description": "تسمية عامة لمكان غير معروف"
+  },
+  "commonWait": "انتظار",
+  "@commonWait": {
+    "description": "تسمية عامة للانتظار"
+  },
+  "commonWalk": "مشياً",
+  "@commonWalk": {
+    "description": "تسمية عامة: مشياً"
+  },
+  "commonYourLocation": "موقعك الحالي",
+  "@commonYourLocation": {
+    "description": "خيار البحث باستخدام موقع المستخدم"
+  },
+  "errorAmbiguousDestination": "مخطط الرحلة غير متأكد من الوجهة المطلوبة. يرجى اختيار أحد الخيارات التالية أو تحديد موقع أكثر دقة.",
+  "@errorAmbiguousDestination": {
+    "description": "رسالة عند عدم تحديد الوجهة بدقة"
+  },
+  "errorAmbiguousOrigin": "مخطط الرحلة غير متأكد من موقع البداية. يرجى اختيار أحد الخيارات التالية أو تحديد موقع أكثر دقة.",
+  "@errorAmbiguousOrigin": {
+    "description": "رسالة عند عدم تحديد نقطة البداية بدقة"
+  },
+  "errorAmbiguousOriginDestination": "نقطة البداية والوجهة غير واضحتين. يرجى اختيار أحد الخيارات التالية أو تحديد مواقع أكثر دقة.",
+  "@errorAmbiguousOriginDestination": {
+    "description": "رسالة عند عدم وضوح نقطة البداية والوجهة"
+  },
+  "errorNoBarrierFree": "نقطة البداية والوجهة غير ملائمتين للكراسي المتحركة.",
+  "@errorNoBarrierFree": {
+    "description": "رسالة عند عدم وجود إمكانية وصول للكراسي المتحركة"
+  },
+  "errorNoConnectServer": "لا يمكن الاتصال بالخادم.",
+  "@errorNoConnectServer": {
+    "description": "رسالة عند فقد الاتصال بالخادم"
+  },
+  "errorNoTransitTimes": "لا تتوفر أوقات للخطوط. قد يكون التاريخ في الماضي أو بعيدًا جدًا في المستقبل، أو قد لا تتوفر خدمة النقل في الوقت المحدد.",
+  "@errorNoTransitTimes": {
+    "description": "رسالة عند عدم توفر أوقات للرحلة"
+  },
+  "errorOutOfBoundary": "لا يمكن تنفيذ الرحلة. قد تحاول التخطيط خارج حدود بيانات الخريطة.",
+  "@errorOutOfBoundary": {
+    "description": "رسالة عند التخطيط خارج حدود الخريطة"
+  },
+  "errorPathNotFound": "لا يمكن تنفيذ الرحلة. قد لا تكون نقطة البداية أو النهاية آمنة أو قابلة للوصول.",
+  "@errorPathNotFound": {
+    "description": "رسالة عند عدم توفر مسار آمن"
+  },
+  "errorServerCanNotHandleRequest": "الطلب يحتوي على أخطاء ولا يمكن للخادم معالجته.",
+  "@errorServerCanNotHandleRequest": {
+    "description": "رسالة عند وجود خطأ في الطلب"
+  },
+  "errorServerTimeout": "الخادم يستغرق وقتًا طويلاً لمعالجة الطلب. يرجى المحاولة لاحقًا.",
+  "@errorServerTimeout": {
+    "description": "رسالة عند بطء استجابة الخادم"
+  },
+  "errorServerUnavailable": "عذراً، خادم التخطيط غير متاح مؤقتًا. يرجى المحاولة لاحقًا.",
+  "@errorServerUnavailable": {
+    "description": "رسالة عند عدم توفر الخادم"
+  },
+  "errorTrivialDistance": "نقطة البداية تقع على مسافة قريبة جداً من الوجهة.",
+  "@errorTrivialDistance": {
+    "description": "رسالة عند قرب المسافة بشكل غير ضروري"
+  },
+  "errorUnknownDestination": "الوجهة غير معروفة. هل يمكنك وصفها بشكل أدق؟",
+  "@errorUnknownDestination": {
+    "description": "رسالة عند عدم العثور على الوجهة"
+  },
+  "errorUnknownOrigin": "نقطة البداية غير معروفة. هل يمكنك وصفها بشكل أدق؟",
+  "@errorUnknownOrigin": {
+    "description": "رسالة عند عدم العثور على نقطة البداية"
+  },
+  "errorUnknownOriginDestination": "نقطة البداية والوجهة غير معروفتين. هل يمكنك وصفهما بشكل أدق؟",
+  "@errorUnknownOriginDestination": {
+    "description": "رسالة عند عدم العثور على كلا الموقعين"
+  },
+  "followOnSocialMedia": "تابعنا على {value}",
+  "@followOnSocialMedia": {
+    "placeholders": {
+      "value": {
+        "example": "Facebook"
+      }
+    },
+    "description": "تابعنا على (وسيلة التواصل)"
+  },
+  "instructionDistanceKm": "{value} كم",
+  "@instructionDistanceKm": {
+    "placeholders": {
+      "value": {
+        "example": "10"
+      }
+    },
+    "description": "مسافة الرحلة بالكيلومترات"
+  },
+  "instructionDistanceMeters": "{value} م",
+  "@instructionDistanceMeters": {
+    "placeholders": {
+      "value": {
+        "example": "100"
+      }
+    },
+    "description": "مسافة الرحلة بالأمتار"
+  },
+  "instructionDurationHours": "{value} ساعة",
+  "@instructionDurationHours": {
+    "placeholders": {
+      "value": {
+        "example": "10"
+      }
+    },
+    "description": "مدة الرحلة بالساعات"
+  },
+  "instructionDurationMinutes": "{value} دقيقة",
+  "@instructionDurationMinutes": {
+    "placeholders": {
+      "value": {
+        "example": "10"
+      }
+    },
+    "description": "مدة الرحلة بالدقائق"
+  },
+  "instructionVehicleBike": "دراجة",
+  "@instructionVehicleBike": {
+    "description": "اسم المركبة (دراجة)"
+  },
+  "instructionVehicleBus": "حافلة",
+  "@instructionVehicleBus": {
+    "description": "اسم المركبة (حافلة)"
+  },
+  "instructionVehicleCar": "سيارة",
+  "@instructionVehicleCar": {
+    "description": "اسم المركبة (سيارة)"
+  },
+  "instructionVehicleCarpool": "مشاركة سيارة",
+  "@instructionVehicleCarpool": {
+    "description": "اسم المركبة (مشاركة سيارة)"
+  },
+  "instructionVehicleCommuterTrain": "قطار ضواحي",
+  "@instructionVehicleCommuterTrain": {
+    "description": "اسم المركبة (قطار ضواحي)"
+  },
+  "instructionVehicleGondola": "عربة معلّقة",
+  "@instructionVehicleGondola": {
+    "description": "اسم المركبة (عربة معلّقة)"
+  },
+  "instructionVehicleLightRail": "قطار خفيف",
+  "@instructionVehicleLightRail": {
+    "description": "اسم المركبة (قطار خفيف)"
+  },
+  "instructionVehicleMetro": "مترو",
+  "@instructionVehicleMetro": {
+    "description": "اسم المركبة (مترو)"
+  },
+  "instructionVehicleMicro": "ميكروباص",
+  "@instructionVehicleMicro": {
+    "description": "اسم المركبة (ميكروباص)"
+  },
+  "instructionVehicleMinibus": "حافلة صغيرة",
+  "@instructionVehicleMinibus": {
+    "description": "اسم المركبة (حافلة صغيرة)"
+  },
+  "instructionVehicleTrufi": "ترفي",
+  "@instructionVehicleTrufi": {
+    "description": "اسم المركبة (ترفي)"
+  },
+  "instructionVehicleWalk": "مشياً",
+  "menuConnections": "مخطط المسارات",
+  "@menuConnections": {
+    "description": "عنصر القائمة الذي يعرض الخريطة/الرحلة المخططة"
+  },
+  "menuSocialMedia": "وسائل التواصل",
+  "menuTransportList": "عرض الخطوط",
+  "@menuTransportList": {
+    "description": "عنصر القائمة الذي يعرض قائمة الحافلات"
+  },
+  "noRouteError": "عذراً، لم نتمكن من العثور على مسار. ماذا تريد أن تفعل؟",
+  "@noRouteError": {
+    "description": "رسالة عند عدم العثور على مسار"
+  },
+  "noRouteErrorActionCancel": "جرّب وجهة أخرى",
+  "@noRouteErrorActionCancel": {
+    "description": "زر لتجربة وجهة أخرى"
+  },
+  "noRouteErrorActionReportMissingRoute": "الإبلاغ عن مسار غير موجود",
+  "@noRouteErrorActionReportMissingRoute": {
+    "description": "زر للإبلاغ عن مسار ناقص"
+  },
+  "noRouteErrorActionShowCarRoute": "عرض مسار السيارة",
+  "@noRouteErrorActionShowCarRoute": {
+    "description": "زر لعرض المسار بالسيارة"
+  },
+  "notShowAgain": "عدم الإظهار مرة أخرى",
+  "readOurBlog": "اقرأ مدونتنا",
+  "@readOurBlog": {
+    "description": "عنصر قائمة للموقع الإلكتروني"
+  },
+  "searchFailLoadingPlan": "فشل تحميل الخطة.",
+  "@searchFailLoadingPlan": {
+    "description": "رسالة عند فشل تحميل نتيجة التخطيط"
+  },
+  "searchHintDestination": "اختر الوجهة",
+  "@searchHintDestination": {
+    "description": "نص الحقل الإرشادي للوجهة"
+  },
+  "searchHintOrigin": "اختر نقطة البداية",
+  "@searchHintOrigin": {
+    "description": "نص الحقل الإرشادي لنقطة البداية"
+  },
+  "searchPleaseSelectDestination": "اختر الوجهة",
+  "@searchPleaseSelectDestination": {
+    "description": "نص الحقل في وضع عرض الخريطة للوجهة"
+  },
+  "searchPleaseSelectOrigin": "اختر نقطة البداية",
+  "@searchPleaseSelectOrigin": {
+    "description": "نص الحقل في وضع عرض الخريطة لنقطة البداية"
+  },
+  "shareAppText": "حمّل {appTitle}، تطبيق النقل العام في {cityName}، عبر {url}",
+  "@shareAppText": {
+    "placeholders": {
+      "url": {
+        "example": "https://trufi.share.url"
+      },
+      "appTitle": {
+        "example": "Trufi App"
+      },
+      "cityName": {
+        "example": "Karlsruhe"
+      }
+    },
+    "description": "النص المستخدم عند مشاركة التطبيق"
+  },
+  "commonShowMap": "عرض على الخريطة",
+  "@commonShowMap": {
+    "description": "تسمية عامة لعرض الخريطة"
+  },
+  "commonMapSettings": "إعدادات الخريطة",
+  "@commonMapSettings": {
+    "description": "تسمية عامة لإعدادات الخريطة"
+  },
+  "mapTypeLabel": "نوع الخريطة",
+  "@mapTypeLabel": {
+    "description": "تسمية لأنواع الخريطة"
+  },
+  "selectYourPointInterest": "نقاط الاهتمام",
+  "themeModeDark": "الوضع الداكن",
+  "themeModeLight": "الوضع الفاتح",
+  "themeModeSystem": "الافتراضي"
+}
