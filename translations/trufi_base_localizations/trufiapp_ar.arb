@@ -319,7 +319,7 @@
   "@searchPleaseSelectOrigin": {
     "description": "نص الحقل في وضع عرض الخريطة لنقطة البداية"
   },
-  "shareAppText": "حمّل {appTitle}، تطبيق النقل العام في {cityName}، عبر {url}",
+  "shareAppText": "حمّل {appTitle}، تطبيق النقل العام في {cityName}، عبر {url}\n\nدليلك المباشر للتنقل بالحافلات دون الحاجة للسؤال أو التخمين.",
   "@shareAppText": {
     "placeholders": {
       "url": {

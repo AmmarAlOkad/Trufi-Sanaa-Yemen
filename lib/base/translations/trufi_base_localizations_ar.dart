@@ -248,7 +248,7 @@ class TrufiBaseLocalizationAr extends TrufiBaseLocalization {
 
   @override
   String shareAppText(Object url, Object appTitle, Object cityName) {
-    return 'حمّل $appTitle، تطبيق النقل العام في $cityName، عبر $url';
+    return 'حمّل $appTitle، تطبيق النقل العام في $cityName، عبر $url\n\nدليلك المباشر للتنقل بالحافلات دون الحاجة للسؤال أو التخمين.';
   }
 
   @override

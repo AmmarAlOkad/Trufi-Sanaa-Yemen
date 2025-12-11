@@ -8,6 +8,7 @@ import 'package:trufi_core/base/widgets/screen/lifecycle_reactor_notification.da
 import 'package:trufi_core/default_values.dart';
 import 'package:trufi_core/trufi_core.dart';
 import 'package:trufi_core/trufi_router.dart';
+
 // TODO: Update example
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -18,9 +19,9 @@ void main() async {
       appNameTitle: 'باصي',
       blocProviders: [
         ...DefaultValues.blocProviders(
-          otpEndpoint: "http://3.28.123.11:8080/otp/routers/default",
-          otpGraphqlEndpoint: "http://3.28.123.11:8080/otp/routers/default/index/graphql",
-
+          otpEndpoint: "http://ammar.mybus.dpdns.org/otp/routers/default",
+          otpGraphqlEndpoint:
+              "http://ammar.mybus.dpdns.org/otp/routers/default/index/graphql",
           mapConfiguration: MapConfiguration(
             center: const TrufiLatLng(15.369445, 44.191007),
           ),
@@ -39,9 +40,10 @@ void main() async {
               fit: BoxFit.cover,
             );
           },
-          urlFeedback: 'mailto:okad342@gmail.com',
+          // urlFeedback: 'mailto:okad342@gmail.com',
+          urlFeedback: 'https://t.me/ammarokad',
           emailContact: '',
-          urlShareApp: 'https://drive.google.com/drive/folders/1GXHkFJBBM4nYcfjlscW3np49lUQX2s9P?usp=sharing',
+          urlShareApp: 'https://mybustrufi.rf.gd/',
           urlSocialMedia: const UrlSocialMedia(
             urlFacebook: 'https://www.facebook.com/alokad.ammar',
           ),

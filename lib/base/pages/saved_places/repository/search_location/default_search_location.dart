@@ -35,7 +35,7 @@ class DefaultSearchLocation implements SearchLocationRepository {
       "$photonUrl/api",
     ).replace(queryParameters: {
       "q": query,
-      "bbox": "-44.099927,15.248571,44.409375,15.622752",
+      "bbox": "44.099927,15.248571,44.409375,15.622752",
       ...extraQueryParameters
     });
     final response = await _fetchRequest(request);

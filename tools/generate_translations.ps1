@@ -20,20 +20,20 @@ foreach ($i in $list) {
     flutter gen-l10n --arb-dir=translations/trufi_base_localizations --template-arb-file=$i --output-localization-file=trufi_base_localizations.dart --output-class=TrufiBaseLocalization --output-dir=lib/base/translations
 }
 
-Write-Host "Generating saved places translations..."
-foreach ($i in $list) {
-   flutter gen-l10n --arb-dir=translations/saved_places_localizations --template-arb-file=$i --output-localization-file=saved_places_localizations.dart --output-class=SavedPlacesLocalization --output-dir=lib/base/pages/saved_places/translations
-}
+# Write-Host "Generating saved places translations..."
+# foreach ($i in $list) {
+#    flutter gen-l10n --arb-dir=translations/saved_places_localizations --template-arb-file=$i --output-localization-file=saved_places_localizations.dart --output-class=SavedPlacesLocalization --output-dir=lib/base/pages/saved_places/translations
+# }
 
-Write-Host "Generating transport list translations..."
-foreach ($i in $list) {
-   flutter gen-l10n --arb-dir=translations/transport_list_localizations --template-arb-file=$i --output-localization-file=transport_list_localizations.dart --output-class=TransportListLocalization --output-dir=lib/base/pages/transport_list/translations
-}
+# Write-Host "Generating transport list translations..."
+# foreach ($i in $list) {
+#    flutter gen-l10n --arb-dir=translations/transport_list_localizations --template-arb-file=$i --output-localization-file=transport_list_localizations.dart --output-class=TransportListLocalization --output-dir=lib/base/pages/transport_list/translations
+# }
 
-Write-Host "Generating feedback translations..."
-foreach ($i in $list) {
-   flutter gen-l10n --arb-dir=translations/feedback_localizations --template-arb-file=$i --output-localization-file=feedback_localizations.dart --output-class=FeedbackLocalization --output-dir=lib/base/pages/feedback/translations
-}
+# Write-Host "Generating feedback translations..."
+# foreach ($i in $list) {
+#    flutter gen-l10n --arb-dir=translations/feedback_localizations --template-arb-file=$i --output-localization-file=feedback_localizations.dart --output-class=FeedbackLocalization --output-dir=lib/base/pages/feedback/translations
+# }
 
 Write-Host "Generating about translations..."
 foreach ($i in $list) {
