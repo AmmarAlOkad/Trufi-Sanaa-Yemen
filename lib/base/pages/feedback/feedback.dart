@@ -39,12 +39,42 @@ class FeedbackPage extends StatelessWidget {
             ),
             Container(
               padding: const EdgeInsets.only(top: 16.0),
-              child: Text(
-                localizationF.feedbackContent,
-                style: theme.textTheme.bodyLarge?.copyWith(
-                  fontSize: 15,
-                ),
-              ),
+              child: Builder(builder: (context) {
+                final content = localizationF.feedbackContent;
+                final baseStyle =
+                    theme.textTheme.bodyLarge?.copyWith(fontSize: 15) ??
+                        const TextStyle(fontSize: 15);
+                final numberColor = const Color(0xFFE91E63);
+
+                final reg = RegExp(r'(\d+)');
+                final spans = <TextSpan>[];
+                int lastIndex = 0;
+                final double baseFontSize = baseStyle.fontSize ?? 15;
+                for (final m in reg.allMatches(content)) {
+                  if (m.start > lastIndex) {
+                    spans.add(
+                        TextSpan(text: content.substring(lastIndex, m.start)));
+                  }
+                  spans.add(TextSpan(
+                    text: m.group(0),
+                    style: baseStyle.copyWith(
+                      color: numberColor,
+                      fontSize: baseFontSize + 10,
+                    ),
+                  ));
+                  lastIndex = m.end;
+                }
+                if (lastIndex < content.length) {
+                  spans.add(TextSpan(text: content.substring(lastIndex)));
+                }
+
+                return RichText(
+                  text: TextSpan(
+                    style: baseStyle,
+                    children: spans,
+                  ),
+                );
+              }),
             )
           ],
         ),

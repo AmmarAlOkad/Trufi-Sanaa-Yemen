@@ -14,6 +14,7 @@ class AboutPage extends StatelessWidget {
   final String cityName;
   final String countryName;
   final String emailContact;
+  final String urlShareApp;
   final Widget Function(BuildContext) drawerBuilder;
 
   const AboutPage({
@@ -22,6 +23,7 @@ class AboutPage extends StatelessWidget {
     required this.cityName,
     required this.countryName,
     required this.emailContact,
+    required this.urlShareApp,
     required this.drawerBuilder,
   });
 
@@ -91,12 +93,54 @@ class AboutPage extends StatelessWidget {
                 const SizedBox(height: 16.0),
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 16),
-                  child: Text(
-                    localizationA.aboutContent(appName, cityName),
-                    style: theme.textTheme.bodyLarge?.copyWith(
+                  child: Builder(builder: (context) {
+                    final aboutText =
+                        localizationA.aboutContent(appName, cityName);
+                    final textStyle = theme.textTheme.bodyLarge?.copyWith(
                       fontSize: 17,
-                    ),
-                  ),
+                    );
+
+                    // If Arabic content contains the specific word 'الموقع',
+                    // show it as a tappable link similar to the GitHub link.
+                    if (localizationA.localeName == 'ar' &&
+                        aboutText.contains('الموقع')) {
+                      final parts = aboutText.split('الموقع');
+                      final trufiUrl = urlShareApp;
+                      return RichText(
+                        textAlign: TextAlign.right,
+                        text: TextSpan(
+                          style: textStyle,
+                          text: parts.isNotEmpty ? parts[0] : '',
+                          children: [
+                            TextSpan(
+                              text: 'الموقع',
+                              style: theme.textTheme.bodyLarge?.copyWith(
+                                fontSize: 17,
+                                color: Colors.blue,
+                                fontWeight: FontWeight.bold,
+                                decoration: TextDecoration.underline,
+                              ),
+                              recognizer: TapGestureRecognizer()
+                                ..onTap = () {
+                                  // ignore: deprecated_member_use
+                                  launch(trufiUrl);
+                                },
+                            ),
+                            TextSpan(
+                              text: parts.length > 1
+                                  ? parts.sublist(1).join('الموقع')
+                                  : '',
+                            ),
+                          ],
+                        ),
+                      );
+                    }
+
+                    return Text(
+                      aboutText,
+                      style: textStyle,
+                    );
+                  }),
                 ),
                 const SizedBox(height: 24),
                 // TrufiExpansionTile(

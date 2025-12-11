@@ -43,7 +43,7 @@ void main() async {
           // urlFeedback: 'mailto:okad342@gmail.com',
           urlFeedback: 'https://t.me/ammarokad',
           emailContact: '',
-          urlShareApp: 'https://mybustrufi.rf.gd/',
+          urlShareApp: 'https://mybustrufi.rf.gd',
           urlSocialMedia: const UrlSocialMedia(
             urlFacebook: 'https://www.facebook.com/alokad.ammar',
           ),

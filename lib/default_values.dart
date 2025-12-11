@@ -184,6 +184,7 @@ abstract class DefaultValues {
                     cityName: cityName,
                     countryName: countryName,
                     emailContact: emailContact,
+                    urlShareApp: urlShareApp,
                     drawerBuilder: generateDrawer(AboutPage.route),
                   ),
                 ),
