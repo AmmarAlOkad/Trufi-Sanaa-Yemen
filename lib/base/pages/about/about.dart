@@ -272,7 +272,7 @@ class AboutPage extends StatelessWidget {
                           ..onTap = () {
                             // ignore: deprecated_member_use
                             launch(
-                              'https://github.com/trufi-association/trufi-core.git',
+                              'https://github.com/AmmarAlOkad/Trufi-Sanaa-Yemen',
                             );
                           },
                       ),
