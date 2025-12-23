@@ -30,7 +30,7 @@ class TransportDash extends StatelessWidget {
         if (showBeforeLine)
           DashLinePlace(
             date: leg.startTimeString,
-            location: leg.fromPlace.name,
+            location: leg.routeLongName ?? leg.fromPlace.name,
             color: forcedColor ?? leg.backgroundColor,
             moveInMap: () =>
                 moveTo(TrufiLatLng(leg.fromPlace.lat, leg.fromPlace.lon)),
