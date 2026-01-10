@@ -22,6 +22,9 @@ class AppReviewProvider {
   final _localRepository = AppReviewProviderHiveLocalRepository();
   int minimumReviewWorthyActions = 5;
   int currentActionCount = 0;
+  /// When false, `reviewApp` will not show the app review dialog.
+  /// Default is false to allow disabling the dialog easily.
+  bool appReviewDialogEnabled = false;
 
   void incrementReviewWorthyActions() {
     currentActionCount++;
@@ -29,6 +32,8 @@ class AppReviewProvider {
   }
 
   Future<void> reviewApp(BuildContext context, bool mounted) async {
+    if (!appReviewDialogEnabled) return;
+
     if (!kIsWeb) {
       final packageInfo = await PackageInfo.fromPlatform();
       if (await _isAppReviewAppropriate(packageInfo)) {

@@ -18,9 +18,9 @@ void main() async {
       appNameTitle: 'باصي',
       blocProviders: [
         ...DefaultValues.blocProviders(
-          otpEndpoint: "http://ammar.mybus.dpdns.org/otp/routers/default",
+          otpEndpoint: "http://ammar.mybus.dpdns.org:60606/otp/routers/default",
           otpGraphqlEndpoint:
-              "http://ammar.mybus.dpdns.org/otp/routers/default/index/graphql",
+              "http://ammar.mybus.dpdns.org:60606/otp/routers/default/index/graphql",
           mapConfiguration: MapConfiguration(
             center: const TrufiLatLng(15.369445, 44.191007),
           ),
