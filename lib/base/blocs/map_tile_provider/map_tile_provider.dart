@@ -80,6 +80,12 @@ class DefaultMapTileCaching extends TileProvider {
 
   @override
   ImageProvider getImage(TileCoordinates coords, TileLayer options) {
-    return CachedNetworkImageProvider(getTileUrl(coords, options));
+    // return CachedNetworkImageProvider(getTileUrl(coords, options));
+    return CachedNetworkImageProvider(
+      getTileUrl(coords, options),
+      headers: const {
+        'User-Agent': 'Trufi-Sanaa-Yemen/1.0 (+https://github.com/AmmarAlOkad)',
+      },
+    );
   }
 }
