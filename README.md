@@ -1,7 +1,7 @@
 # Trufi Core
 
 A cross-plattform multi-modal public transport app based on open data.
-Built in [Flutter](https://flutter.dev/) Cloned From the [Trufi Repo](https://github.com/trufi-association/trufi-core.git), [Trufi Association](https://www.trufi-association.org/), a social startup.
+Built in [Flutter](https://flutter.dev/) 3.38.3 Cloned From the [Trufi Repo](https://github.com/trufi-association/trufi-core.git), [Trufi Association](https://www.trufi-association.org/), a social startup.
 
 <img alt="Trufi Logo" src="assets/images/trufi-logo.png" width="120" />
 
